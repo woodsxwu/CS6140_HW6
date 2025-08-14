@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# But don't ignore these folders and their contents
+!plots/
+!plots/**
+
+!problem_models/
+!problem_models/**
+
+!tools/
+!tools/**
+
+# Don't ignore .gitignore itself
+!.gitignore
+
+# Don't ignore common project files
+!requirements.txt
+!*.py
