@@ -11,9 +11,12 @@
 !tools/
 !tools/**
 
-# Don't ignore .gitignore itself
+# Don't ignore project files
 !.gitignore
-
-# Don't ignore common project files
 !requirements.txt
-!*.py
+
+# Always ignore Python cache files, even in allowed folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
