@@ -11,6 +11,8 @@
 !tools/
 !tools/**
 
+!HW6_report.pdf
+
 # Don't ignore project files
 !.gitignore
 !requirements.txt
